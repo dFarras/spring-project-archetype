@@ -13,6 +13,8 @@
       <directory>src/main/resources</directory>
       <includes>
         <include>**/*.yml</include>
+        <include>**/.gitignore</include>
+        <include>**/*.md</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
