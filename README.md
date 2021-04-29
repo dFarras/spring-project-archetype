@@ -20,12 +20,12 @@ some guidance I leave here the way to use it:</p>
 >Install in your local maven installation: <i>mvn install</i>
 
 >Create a repo: (use this command in one line, or separate every line with a backslash)
->><i>mvn archetype:generate <br>
-> -DarchetypeArtifactId=org.dfarras <br>
-> -DarchetypeGroupId=spring-project-archetype <br>
-> -DarchetypeVersion=1.0 <br>
-> -DgroupId=[your.project.group.id] <br>
-> -DartifactId=[your-project-artifact-id] <br>
+>><i>mvn archetype:generate 
+> -DarchetypeArtifactId=spring-project-archetype 
+> -DarchetypeGroupId=org.dfarras 
+> -DarchetypeVersion=1.0 
+> -DgroupId=[your.project.group.id] 
+> -DartifactId=[your-project-artifact-id] 
 > -Dversion=[your-project-version]</i>
 
 <p>When using this archetype be careful since groupId content is used to create the repository file structure. 
